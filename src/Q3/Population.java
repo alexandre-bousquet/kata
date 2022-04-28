@@ -3,20 +3,21 @@ package Q3;
 import Q3.Pokemons.*;
 
 public class Population {
-    private Pokemon[] elements;
+    private final Pokemon[] elements;
 
     public Population(Pokemon[] elements) {
         this.elements = elements;
     }
 
     public Population() {
+        FabriquePokemon fabrique = FabriquePokemon.getInstance();
         this.elements = new Pokemon[] {
-				new Pikachu(10, 20),
-                new Salameche(8, 8),
-                new Rondoudou(4, 7),
-                new Bulbizarre(20, 80),
-                new Rhinoferos(15, 20),
-                new Polimorfe(3, 6)
+                fabrique.genererPokemon("Pikachu", 10, 20),
+                fabrique.genererPokemon("Salameche", 8, 8),
+                fabrique.genererPokemon("Rondoudou", 4, 7),
+                fabrique.genererPokemon("Bulbizarre", 20, 80),
+                fabrique.genererPokemon("Rhinoferos", 15, 20),
+                fabrique.genererPokemon("Polimorfe", 3, 6)
         };
     }
 
