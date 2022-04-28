@@ -1,11 +1,15 @@
-public class Population2 {
+package Q1;
+
+import Base.Pokemon;
+
+public class Population {
     private Pokemon[] elements;
 
-    public Population2(Pokemon[] elements) {
+    public Population(Pokemon[] elements) {
         this.elements = elements;
     }
 
-    public Population2() {
+    public Population() {
         this.elements = new Pokemon[]{
 				new Pokemon("Pikachu", 10, 20),
                 new Pokemon("Salameche", 8, 8),

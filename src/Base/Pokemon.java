@@ -1,3 +1,5 @@
+package Base;
+
 public class Pokemon {
     private String nom;
     private int poids;

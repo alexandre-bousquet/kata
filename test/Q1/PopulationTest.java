@@ -1,16 +1,18 @@
+package Q1;
+
 import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class Population2Test {
-    private Population population;
-    private Population2 nouvellePopulation;
+public class PopulationTest {
+    private Base.Population population;
+    private Population nouvellePopulation;
 
     @Before
     public void init() {
-        this.population = new Population();
-        this.nouvellePopulation = new Population2();
+        this.population = new Base.Population();
+        this.nouvellePopulation = new Population();
     }
 
     @Test
