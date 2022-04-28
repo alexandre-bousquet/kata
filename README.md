@@ -26,7 +26,7 @@ et doutent de la théorie de l'évolution.
 pokémons Rondoudou.
 
 ## Travail à faire :
-1) Refactorer le code de l'application et en particulier le code de la méthode evolution de la classe Base.Population sans créer de nouvelles 
+1) Refactorer le code de l'application et en particulier le code de la méthode evolution de la classe Population sans créer de nouvelles 
 classes et gardant le même comportement.
 2) Une fois le code refactoré, modifier le comportement des pokémons Polimorfe afin qu'ils évoluent comme des pokémons Salamèche s'ils 
 pèsent moins de 100 kilos et comme des pokémons Rondoudou s'ils pèsent 100 kilos ou plus. _(Optionnel)_
