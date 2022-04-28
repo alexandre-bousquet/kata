@@ -1,5 +1,7 @@
 package java;
 
+// TODO : Solution à faire
+
 public class Population {
     private Pokemon[] elements;
 
