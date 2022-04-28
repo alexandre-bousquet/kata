@@ -1,6 +1,6 @@
 # Silver Dandelion
 
-_Sujet adapté d'un exercice proposé lors des cours en licence profesionnelle APIDAE par le M. Xavier Palleja._
+_Sujet adapté d'un exercice proposé lors des cours en licence professionnelle APIDAE par le M. Xavier Palleja._
 
 On s'intéresse à une population d'eXtrême Pokémons (XP) qui vit dans la forêt de Silver Dandelion ; 
 et on souhaite savoir cette population évolue dans le temps. Les pokémons extrêmes sont des animaux gentils qui passent la 
