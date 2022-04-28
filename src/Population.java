@@ -17,7 +17,7 @@ public class Population {
     }
 
     public void evolution() {
-        for (Pokemon p : elements) {
+        for (Pokemon p : this.elements) {
             if (400 > p.getPoids() && p.getNom().equals("Pikachu"))
                 if (p.getPoids() != 500) {
                     if (p.getTaille() >= 100 && p.getPoids() > 350)
