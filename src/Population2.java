@@ -1,5 +1,3 @@
-// TODO : Solution à faire
-
 public class Population2 {
     private Pokemon[] elements;
 
@@ -65,9 +63,9 @@ public class Population2 {
     }
 
     public String toString() {
-        String s = new String();
+        StringBuilder s = new StringBuilder("");
         for (Pokemon p : this.elements)
-            s += p.getNom() + " " + p.getPoids() + " " + p.getTaille() + "\n";
-        return s;
+            s.append(p.getNom()).append(" ").append(p.getPoids()).append(" ").append(p.getTaille()).append("\n");
+        return s.toString();
     }
 }	

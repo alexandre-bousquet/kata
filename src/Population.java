@@ -1,5 +1,3 @@
-// TODO : Solution à faire
-
 public class Population {
     private Pokemon[] elements;
 
@@ -8,7 +6,7 @@ public class Population {
     }
 
     public Population() {
-        elements = new Pokemon[]{
+        this.elements = new Pokemon[]{
 				new Pokemon("Pikachu", 10, 20),
                 new Pokemon("Salameche", 8, 8),
                 new Pokemon("Rondoudou", 4, 7),
@@ -116,9 +114,9 @@ public class Population {
     }
 
     public String toString() {
-        String s = new String();
-        for (Pokemon p : elements)
-            s += p.getNom() + " " + p.getPoids() + " " + p.getTaille() + "\n";
-        return s;
+        StringBuilder s = new StringBuilder("");
+        for (Pokemon p : this.elements)
+            s.append(p.getNom()).append(" ").append(p.getPoids()).append(" ").append(p.getTaille()).append("\n");
+        return s.toString();
     }
 }	
