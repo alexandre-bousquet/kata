@@ -1,30 +1,42 @@
-# Katas de programmation
+# Game of life
 
-Sur ce projet Git, vous allez pouvoir réaliser des Katas de programmation que j'ai 
-sélectionné et remaniés afin de les rendre plus intéressants et/ou accessibles. Tous les
-katas actuels et à venir sont et seront en Java.
+_Sujet adapté d'un exercice trouvé sur [codingdojo.org](http://codingdojo.org/)._
 
-## Kata 1 : Silver Dandelion (Refactoring)
-Le but de ce kata est d'apprendre à utiliser son IDE afin de programmer plus vite et ainsi 
-d'arriver à une solution optimale très rapidement. Il est adapté d'un sujet proposé en
-cours lors de la licence professionnelle APIDAE. Il a été modifié afin de mettre en œuvre 
-des Design Patterns.
+Ce Kata consiste à calculer les prochaines générations d'un game of life quelle que soit la position de départ.
+Ce concept a été inventé par John Horton Conway (voir page [wikipédia](http://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) 
+pour le contexte).
 
-- [Branche exercice](https://github.com/alexandre-bousquet/kata/tree/Silver_Dandelion_Exo)
+Vous commencez avec une grille à taille variable de cellules à deux dimensions, où chaque cellule est soit 
+vivante, soit morte. Dans cette version du problème, la grille est finie et aucune vie ne peut exister en 
+dehors des bords. Lors du calcul de la génération suivante de la grille, suivez ces règles :
 
-- [Branche solution](https://github.com/alexandre-bousquet/kata/tree/Silver_Dandelion_Solution)
+1. Toute cellule vivante avec moins de deux voisins vivants meurt, comme si elle était causée par une sous-population.
+2. Toute cellule vivante avec plus de trois voisins vivants meurt, comme si elle était surpeuplée.
+3. Toute cellule vivante avec deux ou trois voisins vivants survit à la génération suivante.
+4. Toute cellule morte avec exactement trois voisins vivants devient une cellule vivante.
 
-## Kata 2 : Game of life (Coding)
+## Aides
 
-`KATA WORK IN PROGRESS`
+La position de départ de l'entrée peut être une grille qui ressemble à ceci :
 
-Le but de ce kata est de réaliser un petit jeu calculant des générations d'un game of life, automate
-cellulaire inventé par John Horton Conway.
-Ce kata est adapté d'un sujet trouvé sur [codingdojo.org](http://codingdojo.org/).
-Plusieurs solutions seront proposées par les divers utilisateurs qui auront testé le kata.
+```ignorelang
+Generation 1 :
+........
+....*...
+...**...
+........
+```
 
-- [Branche exercice](https://github.com/alexandre-bousquet/kata/tree/Game_of_life_Exo)
+Et la sortie de la génération suivante pourrait ressembler à ceci :
 
-- [Branche solutions](https://github.com/alexandre-bousquet/kata/tree/Game_of_life_Solutions)
+```ignorelang
+Generation 2 :
+........
+...**...
+...**...
+........
+```
 
-### _To be continued..._
+## Travail à faire
+Vous devez écrire un programme qui peut accepter une grille arbitraire de taille variable de cellules et 
+qui produira des grilles similaires montrant les générations suivantes.
