@@ -16,8 +16,6 @@ des Design Patterns.
 
 ## Kata 2 : Game of life (Coding)
 
-`KATA WORK IN PROGRESS`
-
 Le but de ce kata est de réaliser un petit jeu calculant des générations d'un game of life, automate
 cellulaire inventé par John Horton Conway.
 Ce kata est adapté d'un sujet trouvé sur [codingdojo.org](http://codingdojo.org/).
@@ -26,5 +24,9 @@ Plusieurs solutions seront proposées par les divers utilisateurs qui auront tes
 - [Branche exercice](https://github.com/alexandre-bousquet/kata/tree/Game_of_life_Exo)
 
 - [Branche solutions](https://github.com/alexandre-bousquet/kata/tree/Game_of_life_Solutions)
+
+## Kata 3 : Langton Ant (Coding)
+
+`KATA WORK IN PROGRESS`
 
 ### _To be continued..._
