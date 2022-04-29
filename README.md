@@ -28,6 +28,10 @@ pokémons Rondoudou.
 ## Travail à faire :
 1) Refactorer le code de l'application et en particulier le code de la méthode evolution de la classe Population sans créer de nouvelles 
 classes et gardant le même comportement.
-2) Une fois le code refactoré, modifier le comportement des pokémons Polimorfe afin qu'ils évoluent comme des pokémons Salamèche s'ils 
-pèsent moins de 100 kilos et comme des pokémons Rondoudou s'ils pèsent 100 kilos ou plus. _(Optionnel)_
+**Pour cette question c'est réalisable en seulement 15 minutes ou moins avec de l'entraînement. Il faut bien maitriser les raccourcis de son
+IDE. Dans le cas d'Intellij IDEA, c'est `ALT+Insert` et `ALT+Enter`**.
+2) ~~Une fois le code refactoré, modifier le comportement des pokémons Polimorfe afin qu'ils évoluent comme des pokémons Salamèche s'ils 
+pèsent moins de 100 kilos et comme des pokémons Rondoudou s'ils pèsent 100 kilos ou plus. _(Optionnel)_~~
 3) Refactorer le code de l'application en ajoutant les classes et Design Patterns nécessaires afin de le rendre plus propre.
+**Pour cette question j'ai personnellement utilisé les Design Patterns Factory et Singleton afin d'éviter les instanciations dans la classe
+Population. Le polymorphisme est pour moi non négligeable pour cette question.**
