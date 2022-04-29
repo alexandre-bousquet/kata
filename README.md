@@ -21,9 +21,10 @@ des Design Patterns.
 Le but de ce kata est de réaliser un petit jeu calculant des générations d'un game of life, automate
 cellulaire inventé par John Horton Conway.
 Ce kata est adapté d'un sujet trouvé sur [codingdojo.org](http://codingdojo.org/).
+Plusieurs solutions seront proposées par les divers utilisateurs qui auront testé le kata.
 
 - [Branche exercice](https://github.com/alexandre-bousquet/kata/tree/Game_of_life_Exo)
 
-- [Branche solution](https://github.com/alexandre-bousquet/kata/tree/Game_of_life_Solution)
+- [Branche solutions](https://github.com/alexandre-bousquet/kata/tree/Game_of_life_Solutions)
 
 ### _To be continued..._
