@@ -37,14 +37,6 @@ Generation 2 :
 ........
 ```
 
-```ignorelang
-Generation 3 :
-....*...
-...***..
-...*....
-........
-```
-
 ## Travail à faire
 Vous devez écrire un programme qui peut accepter une grille arbitraire de taille variable de cellules et 
 qui produira des grilles similaires montrant les générations suivantes.
