@@ -3,7 +3,7 @@
 _Sujet adapté d'un exercice trouvé sur [codingdojo.org](http://codingdojo.org/)._
 
 Ce Kata consiste à calculer les prochaines générations d'un game of life quelle que soit la position de départ.
-Ce concept a été inventé par John Horton Conway (voir page [wikipédia](http://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) 
+Ce concept d'automatisme cellulaire a été inventé par John Horton Conway (voir page [wikipédia](http://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) 
 pour le contexte).
 
 Vous commencez avec une grille à taille variable de cellules à deux dimensions, où chaque cellule est soit 
@@ -33,7 +33,7 @@ Et la sortie des générations suivantes pourrait ressembler à ceci :
 Generation 2 :
 ....**..
 ...*....
-....**..
+........
 ........
 ```
 
