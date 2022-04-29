@@ -32,16 +32,16 @@ Et la sortie des générations suivantes pourrait ressembler à ceci :
 ```ignorelang
 Generation 2 :
 ....**..
-...***..
+...*....
 ....**..
 ........
 ```
 
 ```ignorelang
 Generation 3 :
-...*.*..
+....*...
+...***..
 ...*....
-...*.*..
 ........
 ```
 
