@@ -14,4 +14,16 @@ des Design Patterns.
 
 - [Branche solution](https://github.com/alexandre-bousquet/kata/tree/Silver_Dandelion_Solution)
 
+## Kata 2 : Game of life (Coding)
+
+`KATA WORK IN PROGRESS`
+
+Le but de ce kata est de réaliser un petit jeu calculant des générations d'un game of life, automate
+cellulaire inventé par John Horton Conway.
+Ce kata est adapté d'un sujet trouvé sur [codingdojo.org](http://codingdojo.org/).
+
+- [Branche exercice](https://github.com/alexandre-bousquet/kata/tree/Game_of_life_Exo)
+
+- [Branche solution](https://github.com/alexandre-bousquet/kata/tree/Game_of_life_Solution)
+
 ### _To be continued..._
