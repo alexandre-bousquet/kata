@@ -29,4 +29,8 @@ Plusieurs solutions seront proposées par les divers utilisateurs qui auront tes
 
 `KATA WORK IN PROGRESS`
 
+## Kata 4 : Diamond (Coding)
+
+`KATA WORK IN PROGRESS`
+
 ### _To be continued..._
