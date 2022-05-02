@@ -32,7 +32,7 @@ Plusieurs solutions seront proposées par les divers utilisateurs qui auront tes
 ## Kata 4 : RPG Combat (Coding)
 
 Il s'agit d'un kata amusant dans lequel le programmeur construit des règles de combat simples, comme 
-pour un jeu de rôle (RPG). Il est adapté du kate trouvé sur ce dépôt [Git](https://github.com/ardalis/kata-catalog).
+pour un jeu de rôle (RPG). Il est adapté du kata trouvé sur ce dépôt [Git](https://github.com/ardalis/kata-catalog).
 
 ## Kata 5 : Diamond (Coding)
 
