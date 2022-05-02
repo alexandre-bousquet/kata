@@ -21,12 +21,18 @@ public class Population {
         };
     }
 
+    /**
+     * It evolves all the Pokemon in the list
+     */
     public void evolution() {
         for (Pokemon p : this.elements) {
             p.evoluer();
         }
     }
 
+    /**
+     * It returns a string that contains the name, weight and height of each pokemon in the list
+     */
     public String toString() {
         StringBuilder s = new StringBuilder("");
         for (Pokemon p : this.elements)
