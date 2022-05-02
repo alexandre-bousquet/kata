@@ -34,6 +34,8 @@ Plusieurs solutions seront proposées par les divers utilisateurs qui auront tes
 Il s'agit d'un kata amusant dans lequel le programmeur construit des règles de combat simples, comme 
 pour un jeu de rôle (RPG). Il est adapté du kata trouvé sur ce dépôt [Git](https://github.com/ardalis/kata-catalog).
 
+- [Branche exercice](https://github.com/alexandre-bousquet/kata/tree/RPG_Combat_Exo)
+
 ## Kata 5 : Diamond (Coding)
 
 `KATA WORK IN PROGRESS`
