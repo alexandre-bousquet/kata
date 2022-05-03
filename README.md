@@ -38,6 +38,8 @@ pour un jeu de rôle (RPG). Il est adapté du kata trouvé sur ce dépôt [Git](
 
 ## Kata 5 : Zombie Survivor (Coding)
 
+`KATA WORK IN PROGRESS`
+
 Ce kata construit un modèle de jeu de société les survivants d'une apocalypse de zombies. Complétez chaque étape avant 
 de passer à la suivante. Révisez votre conception pour réagir aux nouvelles exigences au fur et à mesure 
 qu'elles apparaissent. Il est adapté du kata trouvé sur ce dépôt [Git](https://github.com/ardalis/kata-catalog).
