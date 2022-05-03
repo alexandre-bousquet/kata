@@ -1,5 +1,11 @@
 # Zombie Surviror
 
+```ignorelang
+TODO : 
+- A modifier pour le rendre plus intéressant et ajouter des éléments.
+- Ajouter la gestion des zombies (vie, attaques ...), tours du jeu et système de ciblage.
+```
+
 Ce kata construit un modèle pour les survivants d'un jeu de société zombie. Complétez chaque étape avant de passer à la 
 suivante. Révisez votre conception pour réagir aux nouvelles exigences telles qu'elles apparaissent. Ce kata est adapté 
 de celui trouvé sur ce dépôt [Git](https://github.com/ardalis/kata-catalog).
