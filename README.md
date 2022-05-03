@@ -1,7 +1,8 @@
 # Zombie Surviror
 
 Ce kata construit un modèle pour les survivants d'un jeu de société zombie. Complétez chaque étape avant de passer à la 
-suivante. Révisez votre conception pour réagir aux nouvelles exigences telles qu'elles apparaissent.
+suivante. Révisez votre conception pour réagir aux nouvelles exigences telles qu'elles apparaissent. Ce kata est adapté 
+de celui trouvé sur ce dépôt [Git](https://github.com/ardalis/kata-catalog).
 
 ## Première étape : les survivants
 
@@ -19,8 +20,8 @@ Les survivants peuvent utiliser du matériel pour les aider dans leur mission.
 - Jusqu'à 2 pièces d'Équipement transportées sont "en main" ; les autres sont "en réserve". 
 (Exemples d'équipement : "Batte de baseball", "Poêle à frire", "Katana", "Pistolet", "Eau en bouteille", "Molotov")
 - Chaque blessure subie par un survivant réduit de 1 le nombre d'équipements qu'il peut porter.
-- Si le survivant a plus d'équipement que sa nouvelle capacité, choisissez une pièce à défausser (outil comme vous le 
-- souhaitez).
+- Si le survivant a plus d'équipement que sa nouvelle capacité, choisissez une pièce à défausser 
+(à implémenter comme vous le souhaitez).
 
 ## Troisième étape : le jeu
 
@@ -34,17 +35,17 @@ Un jeu comprend un ou plusieurs survivants, ainsi que d'autres éléments du jeu
 ## Quatrième étape : Expérience et niveaux
 
 Au fur et à mesure que les survivants surmontent les zombies, ils acquièrent de l'expérience.
-- Chaque Survivant commence avec 0 Expérience.
+- Chaque Survivant commence avec 0 expérience.
 - Chaque survivant a un niveau actuel.
 - Chaque survivant commence au niveau bleu.
-- Chaque fois que le Survivant tue un zombie, il peut gagner 1 Expérience.
+- Chaque fois que le survivant tue un zombie, il peut gagner 1 expérience.
 - Les niveaux consistent en (dans l'ordre): Bleu, Jaune, Orange, Rouge.
   - Lorsqu'un survivant dépasse 6 points d'expérience, il passe ("niveau supérieur") au niveau jaune. 
   - Lorsqu'un survivant dépasse 18 points d'expérience, il passe au niveau orange. 
   - Lorsqu'un survivant dépasse 42 points d'expérience, il passe au niveau rouge.
 - Un jeu a un niveau (le niveau ici est identique au niveau d'un survivant).
 - Une partie commence au niveau bleu.
-- Un niveau de jeu est toujours égal au niveau du niveau de survivant vivant le plus élevé.
+- Le niveau de jeu est toujours égal au niveau du survivant en vie le plus élevé.
 
 ## Cinquième étape : sortie
 
@@ -72,8 +73,8 @@ Au fur et à mesure que le jeu avance, les survivants s'améliorent.
 à partir de ce niveau.
   - Au niveau Jaune, seule la compétence "+1 Action" devrait être disponible, elle sera donc déverrouillée.
 - Un Survivant qui a "+1 Action" devrait avoir une Action supplémentaire (un total de 4).
-- Compétences supplémentaires : "+1 dé (distance)", "+1 dé (mêlée)", "+1 action de mouvement libre", "Hoard", "Sniper", "Tough".
-  - Un Survivant qui a débloqué la compétence « Trésor » peut transporter une pièce d'Équipement supplémentaire.
+- Compétences supplémentaires : "+1 dé (distance)", "+1 dé (mêlée)", "+1 action de mouvement libre", "Magot", "Snipeur", "Robuste".
+  - Un Survivant qui a débloqué la compétence "Magot" peut transporter une pièce d'Équipement supplémentaire.
 - Lorsqu'un survivant dépasse 43 points d'expérience, il reste au niveau rouge mais recommence une deuxième fois dans 
 l'arbre de compétences.
   - En atteignant à nouveau Jaune (43 + 7 = 50 au total), plus aucune compétence potentielle n'est disponible.
