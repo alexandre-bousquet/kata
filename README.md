@@ -8,7 +8,7 @@ soigner mutuellement. Il est adapté du kata trouvé sur ce dépôt [Git](https:
 Complétez chaque itération avant de lire la suivante.
 
 ## Informations
-La classe Application montre le résultat qu'on veut obtenir à la fin. Jouez dans le main afin de tester votre code petit à petit.
+La classe Application montre le résultat qu'on veut obtenir à la fin. Jouez dans le main afin de tester votre code petit à petit en décommentant les lignes.
 Pensez a faire des affichages réguliers dans les méthodes afin d'avoir un retour visuel sur le déroulement du programme.
 
 Exemple : `System.out.println("Le personnage 1 attaque le personnage 2");` ou `System.out.println("Le personnage 1 a rejoint la faction Apex");`
